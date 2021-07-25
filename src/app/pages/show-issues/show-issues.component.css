@@ -1,0 +1,16 @@
+table {
+  width: 100%;
+}
+
+.tableContainer {
+  margin-right: 30px;
+}
+
+button:hover{
+  background-color: grey;
+  
+}
+
+button{
+  margin: 2%;
+}

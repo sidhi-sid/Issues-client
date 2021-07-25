@@ -1,0 +1,38 @@
+<!-- <form [formGroup]="issueFormGroup" class="form" (ngSubmit)="onSubmit()">
+  <mat-form-field>
+    <mat-label>Project Name</mat-label>
+    <input matInput formControlName="projectName" required />
+  </mat-form-field>
+  <br />
+  <mat-form-field>
+    <mat-label>Title</mat-label>
+    <input matInput formControlName="title" required />
+  </mat-form-field>
+  <br />
+  <mat-form-field appearance="fill">
+    <mat-label>Select Priority</mat-label>
+    <mat-select formControlName="priority">
+      <mat-option value="1">1</mat-option>
+      <mat-option value="2">2</mat-option>
+      <mat-option value="3">3</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <br />
+  <mat-form-field class="description" appearance="fill">
+    <mat-label>Description</mat-label>
+    <textarea matInput formControlName="description"></textarea>
+    <div
+      style="color: red"
+      *ngIf="
+        issueFormGroup.controls['remark'].touched &&
+        issueFormGroup.controls['remark'].hasError('maxlength')
+      "
+    >
+      Maximum of 250 characters
+    </div>
+  </mat-form-field>
+  <br />
+  <button mat-raised-button color="primary" (ngSubmit)="onSubmit()">
+    Add Issue
+  </button>
+</form> -->

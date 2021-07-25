@@ -1,0 +1,10 @@
+<div class="details">
+  <h2>Details of Issue</h2>
+  <p>Issue Id: {{ issue.id }}</p>
+  <p>Project Name: {{ issue.projectName }}</p>
+  <p>Title: {{ issue.title }}</p>
+  <p>Priority: {{ issue.priority }}</p>
+  <p *ngIf="issue.description.length > 0">
+    Description: {{ issue.description }}
+  </p>
+</div>
